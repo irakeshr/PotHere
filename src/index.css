@@ -4,6 +4,14 @@
     background-image: url('../src/assets/Hero2.jpeg');
   }
   
+.bg-custom {
+    background-image: url('../src/assets/Hero2.jpeg');
+  }
+  
   .bg-custom1 {
     background-image: url('../src/assets/\ potshow1.png');
   }
+  .bg-custom2 {
+    background-image: url('../src/assets/\ Header.png');
+  }
+  

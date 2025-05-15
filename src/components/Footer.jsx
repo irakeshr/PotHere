@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -14,10 +15,11 @@ function Footer() {
         <div>
           <h2 className="text-lg font-semibold text-[#7a4c32] mb-2">Quick Links</h2>
           <ul className="space-y-1">
-            <li><a href="/" className="hover:underline">Home</a></li>
-            <li><a href="/shop" className="hover:underline">Shop</a></li>
-            <li><a href="/about" className="hover:underline">About</a></li>
-            <li><a href="/contact" className="hover:underline">Contact</a></li>
+            <li><Link to="/" className="hover:underline">Home</Link></li>
+            <li><Link to="/shop" className="hover:underline">Shop</Link></li>
+            <li><Link to="/cart" className="hover:underline">Cart</Link></li>
+            <li><Link to="/about" className="hover:underline">About</Link></li>
+            <li><Link to="/contact" className="hover:underline">Contact</Link></li>
           </ul>
         </div>
 
@@ -25,7 +27,7 @@ function Footer() {
         <div>
           <h2 className="text-lg font-semibold text-[#7a4c32] mb-2">Contact Us</h2>
           <p>Email: support@potherepots.com</p>
-          <p>Phone: +91 98765 43210</p>
+          <p>Phone: +91 6282972147</p>
           <p>Location: Palakkad, Kerala</p>
         </div>
       </div>
