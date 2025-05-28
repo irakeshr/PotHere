@@ -1,8 +1,10 @@
 import { useContext, useState, useEffect } from 'react';
 import { CartContext } from '../../context/CartContext';
+import CartItemCard from '../CartItemCard';
+import AnimatedContent from '../../styles/AnimatedContent';
 
 function CartItems() {
-  const { cartItems, updateQuantity, removeItem } = useContext(CartContext);
+  const { cartItems, setCartItems } = useContext(CartContext);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -17,11 +19,20 @@ function CartItems() {
   };
 
   const handleQuantityChange = (itemId, newQuantity) => {
-    updateQuantity(itemId, newQuantity);
+    
+    if (newQuantity < 1) return;
+  
+    setCartItems(prevItems =>
+      prevItems.map(item =>
+        item.id === itemId ? { ...item, quantity: newQuantity } : item
+      )
+    );
   };
+  
 
   const handleRemoveItem = (itemId) => {
-    removeItem(itemId);
+    setCartItems(cartItems.filter(item => item.id !== itemId)); 
+  
   };
 
   return (
@@ -38,41 +49,36 @@ function CartItems() {
       ) : (
         <div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {cartItems.map((item, index) => (
-              <div key={index} className="bg-white shadow-md rounded-lg overflow-hidden">
-                <img src={item.image} alt={item.name} className="w-full h-48 object-cover" />
-                <div className="p-4">
-                  <h3 className="text-lg font-bold">{item.name}</h3>
-                  <p className="text-gray-700">Size: {item.size}</p>
-                  <p className="text-gray-700">Dimensions: {item.dimensions}</p>
-                  <div className="flex items-center">
-                    <p className="text-xl font-semibold mr-2">Quantity:</p>
-                    <button
-                      onClick={() => handleQuantityChange(item.id, item.quantity - 1)}
-                      disabled={item.quantity <= 1}
-                      className="bg-gray-300 text-gray-700 px-2 py-1 rounded hover:bg-gray-400"
-                    >
-                      -
-                    </button>
-                    <span className="mx-2">{item.quantity}</span>
-                    <button
-                      onClick={() => handleQuantityChange(item.id, item.quantity + 1)}
-                      className="bg-gray-300 text-gray-700 px-2 py-1 rounded hover:bg-gray-400"
-                    >
-                      +
-                    </button>
-                  </div>
-                  <p className="text-xl font-semibold">Price: ₹{item.price}</p>
-                  <p className="text-xl font-semibold">Subtotal: ₹{item.price * item.quantity}</p>
-                  <button
-                    onClick={() => handleRemoveItem(item.id)}
-                    className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 mt-4"
-                  >
-                    Remove
-                  </button>
-                </div>
-              </div>
-            ))}
+          {cartItems.map((item, index) => (
+            <AnimatedContent
+
+            distance={150}
+            
+            direction="vertical"
+            
+            reverse={false}
+            
+            config={{ tension: 80, friction: 20 }}
+            
+            initialOpacity={0.2}
+            
+            animateOpacity
+            
+            scale={1.1}
+            
+            threshold={0.2}
+            
+            >
+
+  <CartItemCard
+    key={index}
+    item={item}
+    onQuantityChange={handleQuantityChange}
+    onRemove={handleRemoveItem}
+  />
+
+  </AnimatedContent>
+))}
           </div>
           <div className="mt-8">
             <h2 className="text-2xl font-bold mb-4">Total Amount: ₹{getTotalAmount()}</h2>

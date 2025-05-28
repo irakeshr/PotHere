@@ -1,12 +1,9 @@
 @import "tailwindcss";
 
 .bg-custom {
-    background-image: url('../src/assets/Hero2.jpeg');
+    background-image: url('../src/assets/NewHero.png');
   }
   
-.bg-custom {
-    background-image: url('../src/assets/Hero2.jpeg');
-  }
   
   .bg-custom1 {
     background-image: url('../src/assets/\ potshow1.png');

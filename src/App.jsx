@@ -19,7 +19,7 @@ function App() {
     {
       id: 1,
       name: 'Terracotta Pot',
-      price: 12.99,
+      price: 120,
       image: '../src/assets/potspng/pot1.png',
        sizes: [
         {
@@ -39,7 +39,7 @@ function App() {
     {
       id: 2,
       name: 'Modern White Pot',
-      price: 19.99,
+      price: 100,
       image: '../src/assets/potspng/pot2.png',
       sizes: [
         {
@@ -59,7 +59,7 @@ function App() {
     {
       id: 3,
       name: 'Handcrafted Ceramic',
-      price: 24.99,
+      price: 150,
       image: '../src/assets/potspng/pot3.png',
       sizes: [
         {
@@ -79,7 +79,7 @@ function App() {
     {
       id: 4,
       name: 'Another Terracotta',
-      price: 15.50,
+      price: 80,
       image: '../src/assets/potspng/pot4.png',
       sizes: [
         {
@@ -99,7 +99,7 @@ function App() {
     {
       id: 5,
       name: 'Small Plant Pot',
-      price: 9.75,
+      price: 90,
       image: '../src/assets/potspng/pot3.png',
       sizes: [
         {
@@ -119,7 +119,7 @@ function App() {
     {
       id: 6,
       name: 'Painted Ceramic Pot',
-      price: 21.00,
+      price: 100.00,
       image: '../src/assets/potspng/pot2.png',
       sizes: [
         {
@@ -139,7 +139,7 @@ function App() {
     {
       id: 7,
       name: 'Terracotta Pot',
-      price: 12.99,
+      price: 120.99,
       image: '../src/assets/potspng/pot1.png',
       sizes: [
         {
@@ -179,7 +179,7 @@ function App() {
     {
       id: 9,
       name: 'Handcrafted Ceramic',
-      price: 24.99,
+      price: 60.99,
       image: '../src/assets/potspng/pot3.png',
       sizes: [
         {
@@ -199,7 +199,7 @@ function App() {
     {
       id: 10,
       name: 'Another Terracotta',
-      price: 15.50,
+      price: 135.50,
       image: '../src/assets/potspng/pot4.png',
       sizes: [
         {
@@ -219,7 +219,7 @@ function App() {
     {
       id: 11,
       name: 'Small Plant Pot',
-      price: 9.75,
+      price: 90.75,
       image: '../src/assets/potspng/pot3.png',
       sizes: [
         {
@@ -239,7 +239,7 @@ function App() {
     {
       id: 12,
       name: 'Painted Ceramic Pot',
-      price: 21.00,
+      price: 120.00,
       image: '../src/assets/potspng/pot2.png',
       sizes: [
         {
