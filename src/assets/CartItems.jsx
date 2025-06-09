@@ -1,7 +1,7 @@
 import { useContext, useState, useEffect } from 'react';
-import { CartContext } from '../../context/CartContext';
-import CartItemCard from '../CartItemCard';
-import AnimatedContent from '../../styles/AnimatedContent';
+import { CartContext } from '../context/CartContext';
+import CartItemCard from '../components/CartItemCard';
+import AnimatedContent from '../styles/AnimatedContent';
 
 function CartItems() {
   const { cartItems, setCartItems } = useContext(CartContext);

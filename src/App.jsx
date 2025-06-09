@@ -8,7 +8,7 @@ import AboutSection from './components/Pages/AboutSection';
 import Footer from './components/Footer';
 import ProductDetails from './components/Pages/ProductDetails';
 import { CartContext } from './context/CartContext';
-import CartItems from './components/Pages/CartItems';
+import CartItems from './assets/CartItems';
 import ScrollToTop from './context/ScrollToTop';
 // Suggested code may be subject to a license. Learn more: ~LicenseLog:2079603238.
  import { ToastContainer,toast } from "react-toastify";
@@ -20,7 +20,7 @@ function App() {
       id: 1,
       name: 'Terracotta Pot',
       price: 120,
-      image: '../src/assets/potspng/pot1.png',
+      image: '../src/assets/pot1.png',
        sizes: [
         {
           name: "Small",
@@ -40,7 +40,7 @@ function App() {
       id: 2,
       name: 'Modern White Pot',
       price: 100,
-      image: '../src/assets/potspng/pot2.png',
+      image: '../src/assets/pot2.png',
       sizes: [
         {
           name: "Small",
@@ -60,7 +60,7 @@ function App() {
       id: 3,
       name: 'Handcrafted Ceramic',
       price: 150,
-      image: '../src/assets/potspng/pot3.png',
+      image: '../src/assets/pot3.png',
       sizes: [
         {
           name: "Small",
@@ -80,7 +80,7 @@ function App() {
       id: 4,
       name: 'Another Terracotta',
       price: 80,
-      image: '../src/assets/potspng/pot4.png',
+      image: '../src/assets/pot1.png',
       sizes: [
         {
           name: "Small",
@@ -100,7 +100,7 @@ function App() {
       id: 5,
       name: 'Small Plant Pot',
       price: 90,
-      image: '../src/assets/potspng/pot3.png',
+      image: ' ../src/assets/pot1.png',
       sizes: [
         {
           name: "Small",
@@ -120,7 +120,7 @@ function App() {
       id: 6,
       name: 'Painted Ceramic Pot',
       price: 100.00,
-      image: '../src/assets/potspng/pot2.png',
+      image: '../src/assets/pot2.png',
       sizes: [
         {
           name: "Small",
@@ -140,7 +140,7 @@ function App() {
       id: 7,
       name: 'Terracotta Pot',
       price: 120.99,
-      image: '../src/assets/potspng/pot1.png',
+      image: '../src/assets/pot3.png',
       sizes: [
         {
           name: "Small",
@@ -160,7 +160,7 @@ function App() {
       id: 8,
       name: 'Modern White Pot',
       price: 19.99,
-      image: '../src/assets/potspng/pot2.png',
+      image: ' ../src/assets/pot4.png',
       sizes: [
         {
           name: "Small",
@@ -180,7 +180,7 @@ function App() {
       id: 9,
       name: 'Handcrafted Ceramic',
       price: 60.99,
-      image: '../src/assets/potspng/pot3.png',
+      image: '../src/assets/pot1.png',
       sizes: [
         {
           name: "Small",
@@ -200,7 +200,7 @@ function App() {
       id: 10,
       name: 'Another Terracotta',
       price: 135.50,
-      image: '../src/assets/potspng/pot4.png',
+      image: ' ../src/assets/pot3.png',
       sizes: [
         {
           name: "Small",
@@ -220,7 +220,7 @@ function App() {
       id: 11,
       name: 'Small Plant Pot',
       price: 90.75,
-      image: '../src/assets/potspng/pot3.png',
+      image: ' ../src/assets/pot2.png',
       sizes: [
         {
           name: "Small",
@@ -240,7 +240,7 @@ function App() {
       id: 12,
       name: 'Painted Ceramic Pot',
       price: 120.00,
-      image: '../src/assets/potspng/pot2.png',
+      image: '../src/assets/pot4.png',
       sizes: [
         {
           name: "Small",

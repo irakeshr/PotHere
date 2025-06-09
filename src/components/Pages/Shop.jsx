@@ -3,12 +3,12 @@ import AnimatedContent from '../../styles/AnimatedContent';
 import ProductCard from '../ProductCard';
 import { Link } from 'react-router-dom';
 
-const dummyProducts = [
+  const dummyProducts = [
   {
     id: 1,
     name: 'Terracotta Pot',
     price: 120,
-    image: '../src/assets/potspng/pot1.png',
+    image: '../src/assets/pot1.png',
      sizes: [
       {
         name: "Small",
@@ -28,7 +28,7 @@ const dummyProducts = [
     id: 2,
     name: 'Modern White Pot',
     price: 100,
-    image: '../src/assets/potspng/pot2.png',
+    image: '../src/assets/pot2.png',
     sizes: [
       {
         name: "Small",
@@ -48,7 +48,7 @@ const dummyProducts = [
     id: 3,
     name: 'Handcrafted Ceramic',
     price: 150,
-    image: '../src/assets/potspng/pot3.png',
+    image: '../src/assets/pot3.png',
     sizes: [
       {
         name: "Small",
@@ -68,7 +68,7 @@ const dummyProducts = [
     id: 4,
     name: 'Another Terracotta',
     price: 80,
-    image: '../src/assets/potspng/pot4.png',
+    image: '../src/assets/pot1.png',
     sizes: [
       {
         name: "Small",
@@ -88,7 +88,7 @@ const dummyProducts = [
     id: 5,
     name: 'Small Plant Pot',
     price: 90,
-    image: '../src/assets/potspng/pot3.png',
+    image: ' ../src/assets/pot1.png',
     sizes: [
       {
         name: "Small",
@@ -108,7 +108,7 @@ const dummyProducts = [
     id: 6,
     name: 'Painted Ceramic Pot',
     price: 100.00,
-    image: '../src/assets/potspng/pot2.png',
+    image: '../src/assets/pot2.png',
     sizes: [
       {
         name: "Small",
@@ -128,7 +128,7 @@ const dummyProducts = [
     id: 7,
     name: 'Terracotta Pot',
     price: 120.99,
-    image: '../src/assets/potspng/pot1.png',
+    image: '../src/assets/pot3.png',
     sizes: [
       {
         name: "Small",
@@ -147,8 +147,8 @@ const dummyProducts = [
   {
     id: 8,
     name: 'Modern White Pot',
-    price: 110.99,
-    image: '../src/assets/potspng/pot2.png',
+    price: 19.99,
+    image: ' ../src/assets/pot4.png',
     sizes: [
       {
         name: "Small",
@@ -168,7 +168,7 @@ const dummyProducts = [
     id: 9,
     name: 'Handcrafted Ceramic',
     price: 60.99,
-    image: '../src/assets/potspng/pot3.png',
+    image: '../src/assets/pot1.png',
     sizes: [
       {
         name: "Small",
@@ -188,7 +188,7 @@ const dummyProducts = [
     id: 10,
     name: 'Another Terracotta',
     price: 135.50,
-    image: '../src/assets/potspng/pot4.png',
+    image: ' ../src/assets/pot3.png',
     sizes: [
       {
         name: "Small",
@@ -208,7 +208,7 @@ const dummyProducts = [
     id: 11,
     name: 'Small Plant Pot',
     price: 90.75,
-    image: '../src/assets/potspng/pot3.png',
+    image: ' ../src/assets/pot2.png',
     sizes: [
       {
         name: "Small",
@@ -228,7 +228,7 @@ const dummyProducts = [
     id: 12,
     name: 'Painted Ceramic Pot',
     price: 120.00,
-    image: '../src/assets/potspng/pot2.png',
+    image: '../src/assets/pot4.png',
     sizes: [
       {
         name: "Small",
