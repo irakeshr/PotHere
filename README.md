@@ -1,12 +1,116 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# PotHere
 
-Currently, two official plugins are available:
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-pot--here.vercel.app-brightgreen)](https://pot-here.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+An **eCommerce web application** for selling pottery online, built with **React** and **Tailwind CSS**.  
+The app provides a smooth shopping experience with modern design and responsive UI.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Live Link
+**[pot-here.vercel.app](https://pot-here.vercel.app)**
+
+---
+
+## 📸 Demo
+
+*(Add your screenshot here — see instructions below)*
+
+```markdown
+![PotHere Demo](./assets/demo.png)
+````
+
+---
+
+## 📌 Features
+
+* **Modern and responsive design**
+* **Product listings** with images and details
+* **Add-to-cart functionality** *(coming soon)*
+* **About** and **Contact** sections
+* **Deployed on Vercel**
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** React, Tailwind CSS
+* **Deployment:** Vercel
+
+---
+
+## 📂 Project Structure
+
+```
+PotHere/
+│── public/        # Static assets
+│── src/
+│    ├── components/ # Navbar, Footer, Product Cards, etc.
+│    ├── pages/      # Home, Shop, About, Contact
+│    ├── App.js
+│    └── index.js
+│── package.json
+└── README.md
+```
+
+---
+
+## 🏃‍♂️ Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/irakeshr/PotHere.git
+cd PotHere
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run locally
+
+```bash
+npm start
+```
+
+Open `http://localhost:3000` to view in your browser.
+
+---
+
+## 📦 Build for production
+
+```bash
+npm run build
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](https://github.com/irakeshr/PotHere/issues).
+
+---
+
+## 📜 License
+
+This project is **open-sourced** under the MIT License.
+
+---
+
+## 👤 Author
+
+**Rakesh R**
+
+* Portfolio: [rakesh-here.vercel.app](https://rakesh-here.vercel.app)
+* GitHub: [@irakeshr](https://github.com/irakeshr)
+
+```
+
+---
+
+ 
